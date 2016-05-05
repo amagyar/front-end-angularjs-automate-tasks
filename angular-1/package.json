@@ -1,0 +1,21 @@
+{
+  "name": "cinq-angular1",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "http-server": "^0.6.1",
+    "grunt-contrib-clean": "~0.7.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "~0.8.2",
+    "grunt-contrib-uglify": "~0.11.0",
+    "grunt-hashres": "^0.4.1",
+    "grunt-ng-annotate": "^1.0.1",
+    "load-grunt-tasks": "^3.4.0"
+  },
+  "scripts": {
+    "debug": "cd app && http-server -p80",
+    "build-run": "grunt build && cd dist && http-server -p80"
+  }
+}

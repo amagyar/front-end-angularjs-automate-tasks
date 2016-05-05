@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <!-- #docregion head -->
+    <!-- #docregion base-href -->
+  <head>
+    <base href="/">
+    <!-- #enddocregion base-href -->
+    <title>Angular 2 Tour of Heroes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+
+    <link rel="stylesheet" href="styles.css">    
+    <script src="out/concat.js"></script>
+    
+    <!-- #enddocregion router -->
+    <script>
+      System.import('main')
+            .then(null, console.error.bind(console));
+    </script>
+  </head>
+  <!-- #enddocregion head -->
+
+  <body>
+    <my-app>Loading AngularJS 2 Application... Please wait.</my-app>
+  </body>
+</html>

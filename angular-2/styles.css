@@ -1,0 +1,23 @@
+html {
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    background-color: aliceblue;
+    color: slategray;
+}
+@media (min-width: 768px) {
+  .card {
+    width: calc(100% - 52px);
+  }
+}
+@media (min-width: 1280px) {
+  .card {
+    width: calc(50% - 52px);
+  }
+}
+@media (min-width: 1920px) {
+  .card {
+    width: calc(25% - 52px);
+  }
+}
