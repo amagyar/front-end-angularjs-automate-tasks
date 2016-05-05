@@ -4,7 +4,8 @@
 Projeto feito em AngularJS 1.5.x.
 
 1. Para instalar 'npm install'
-2. Para rodar 'npm run build-run'. Automaticamente ele:
+2. Instalar bower 'bower install'
+3. Para rodar 'npm run build-run'. Automaticamente ele:
   1. Roda o grunt para realizar a build na pasta /dist
   2. Entra na pasta /dist
   3. Levanta o servidor na porta 80 para o front-end
